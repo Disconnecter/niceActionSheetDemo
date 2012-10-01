@@ -8,22 +8,24 @@
 
 #import "ViewController.h"
 
+
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad
+- (IBAction)showActionSheetPressed:(UIButton *)sender
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    niceActionSheet *actionSheet = [[niceActionSheet alloc] initWithTitle:@"Hello" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:@"Destructive" otherButtonTitles:@[@"First", @"Second", @"Third"]];
+    [actionSheet showInView:self.view];
+    [actionSheet release];
 }
 
-- (void)didReceiveMemoryWarning
+- (void)actionSheetDidDismissWithButtonIndex:(NSInteger)index
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    NSLog(@"Pressed button with index %i", index);
 }
+
 
 @end

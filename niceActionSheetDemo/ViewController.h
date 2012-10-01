@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "niceActionSheet.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <niceActionSheetDelegate>
 
 @end

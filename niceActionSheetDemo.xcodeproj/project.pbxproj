@@ -18,7 +18,21 @@
 		0F7F99541619D0050086E49C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F7F99531619D0050086E49C /* Default-568h@2x.png */; };
 		0F7F99571619D0050086E49C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F99561619D0050086E49C /* ViewController.m */; };
 		0F7F995A1619D0050086E49C /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F7F99581619D0050086E49C /* ViewController_iPhone.xib */; };
-		0F7F995D1619D0050086E49C /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F7F995B1619D0050086E49C /* ViewController_iPad.xib */; };
+		0F7F997A1619D1660086E49C /* niceActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F996A1619D1660086E49C /* niceActionSheet.m */; };
+		0F7F997B1619D1660086E49C /* action_sheet_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F7F996C1619D1660086E49C /* action_sheet_background.png */; };
+		0F7F997C1619D1660086E49C /* action_sheet_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F7F996D1619D1660086E49C /* action_sheet_background@2x.png */; };
+		0F7F997D1619D1660086E49C /* action_sheet_button_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F7F996E1619D1660086E49C /* action_sheet_button_normal.png */; };
+		0F7F997E1619D1660086E49C /* action_sheet_button_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F7F996F1619D1660086E49C /* action_sheet_button_normal@2x.png */; };
+		0F7F997F1619D1660086E49C /* action_sheet_button_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F7F99701619D1660086E49C /* action_sheet_button_pressed.png */; };
+		0F7F99801619D1660086E49C /* action_sheet_button_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F7F99711619D1660086E49C /* action_sheet_button_pressed@2x.png */; };
+		0F7F99811619D1660086E49C /* cancel_button_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F7F99721619D1660086E49C /* cancel_button_normal.png */; };
+		0F7F99821619D1660086E49C /* cancel_button_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F7F99731619D1660086E49C /* cancel_button_normal@2x.png */; };
+		0F7F99831619D1660086E49C /* cancel_button_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F7F99741619D1660086E49C /* cancel_button_pressed.png */; };
+		0F7F99841619D1660086E49C /* cancel_button_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F7F99751619D1660086E49C /* cancel_button_pressed@2x.png */; };
+		0F7F99851619D1660086E49C /* destructive_button_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F7F99761619D1660086E49C /* destructive_button_normal.png */; };
+		0F7F99861619D1660086E49C /* destructive_button_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F7F99771619D1660086E49C /* destructive_button_normal@2x.png */; };
+		0F7F99871619D1660086E49C /* destructive_button_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F7F99781619D1660086E49C /* destructive_button_pressed.png */; };
+		0F7F99881619D1660086E49C /* destructive_button_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F7F99791619D1660086E49C /* destructive_button_pressed@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +52,22 @@
 		0F7F99551619D0050086E49C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0F7F99561619D0050086E49C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0F7F99591619D0050086E49C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		0F7F995C1619D0050086E49C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		0F7F99691619D1660086E49C /* niceActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = niceActionSheet.h; sourceTree = "<group>"; };
+		0F7F996A1619D1660086E49C /* niceActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = niceActionSheet.m; sourceTree = "<group>"; };
+		0F7F996C1619D1660086E49C /* action_sheet_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = action_sheet_background.png; sourceTree = "<group>"; };
+		0F7F996D1619D1660086E49C /* action_sheet_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action_sheet_background@2x.png"; sourceTree = "<group>"; };
+		0F7F996E1619D1660086E49C /* action_sheet_button_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = action_sheet_button_normal.png; sourceTree = "<group>"; };
+		0F7F996F1619D1660086E49C /* action_sheet_button_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action_sheet_button_normal@2x.png"; sourceTree = "<group>"; };
+		0F7F99701619D1660086E49C /* action_sheet_button_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = action_sheet_button_pressed.png; sourceTree = "<group>"; };
+		0F7F99711619D1660086E49C /* action_sheet_button_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action_sheet_button_pressed@2x.png"; sourceTree = "<group>"; };
+		0F7F99721619D1660086E49C /* cancel_button_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel_button_normal.png; sourceTree = "<group>"; };
+		0F7F99731619D1660086E49C /* cancel_button_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel_button_normal@2x.png"; sourceTree = "<group>"; };
+		0F7F99741619D1660086E49C /* cancel_button_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel_button_pressed.png; sourceTree = "<group>"; };
+		0F7F99751619D1660086E49C /* cancel_button_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel_button_pressed@2x.png"; sourceTree = "<group>"; };
+		0F7F99761619D1660086E49C /* destructive_button_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = destructive_button_normal.png; sourceTree = "<group>"; };
+		0F7F99771619D1660086E49C /* destructive_button_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "destructive_button_normal@2x.png"; sourceTree = "<group>"; };
+		0F7F99781619D1660086E49C /* destructive_button_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = destructive_button_pressed.png; sourceTree = "<group>"; };
+		0F7F99791619D1660086E49C /* destructive_button_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "destructive_button_pressed@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,12 +114,9 @@
 		0F7F99431619D0050086E49C /* niceActionSheetDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0F7F99631619D0700086E49C /* Classes */,
 				0F7F994C1619D0050086E49C /* AppDelegate.h */,
 				0F7F994D1619D0050086E49C /* AppDelegate.m */,
-				0F7F99551619D0050086E49C /* ViewController.h */,
-				0F7F99561619D0050086E49C /* ViewController.m */,
-				0F7F99581619D0050086E49C /* ViewController_iPhone.xib */,
-				0F7F995B1619D0050086E49C /* ViewController_iPad.xib */,
 				0F7F99441619D0050086E49C /* Supporting Files */,
 			);
 			path = niceActionSheetDemo;
@@ -108,6 +134,72 @@
 				0F7F99531619D0050086E49C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F7F99631619D0700086E49C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0F7F99671619D1540086E49C /* 3rdParty */,
+				0F7F99641619D07D0086E49C /* ViewControllers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		0F7F99641619D07D0086E49C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0F7F99661619D09B0086E49C /* Main */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0F7F99661619D09B0086E49C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0F7F99551619D0050086E49C /* ViewController.h */,
+				0F7F99561619D0050086E49C /* ViewController.m */,
+				0F7F99581619D0050086E49C /* ViewController_iPhone.xib */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		0F7F99671619D1540086E49C /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				0F7F99681619D1660086E49C /* ActionSheet */,
+			);
+			name = 3rdParty;
+			sourceTree = "<group>";
+		};
+		0F7F99681619D1660086E49C /* ActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				0F7F99691619D1660086E49C /* niceActionSheet.h */,
+				0F7F996A1619D1660086E49C /* niceActionSheet.m */,
+				0F7F996B1619D1660086E49C /* Resourses */,
+			);
+			path = ActionSheet;
+			sourceTree = "<group>";
+		};
+		0F7F996B1619D1660086E49C /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				0F7F996C1619D1660086E49C /* action_sheet_background.png */,
+				0F7F996D1619D1660086E49C /* action_sheet_background@2x.png */,
+				0F7F996E1619D1660086E49C /* action_sheet_button_normal.png */,
+				0F7F996F1619D1660086E49C /* action_sheet_button_normal@2x.png */,
+				0F7F99701619D1660086E49C /* action_sheet_button_pressed.png */,
+				0F7F99711619D1660086E49C /* action_sheet_button_pressed@2x.png */,
+				0F7F99721619D1660086E49C /* cancel_button_normal.png */,
+				0F7F99731619D1660086E49C /* cancel_button_normal@2x.png */,
+				0F7F99741619D1660086E49C /* cancel_button_pressed.png */,
+				0F7F99751619D1660086E49C /* cancel_button_pressed@2x.png */,
+				0F7F99761619D1660086E49C /* destructive_button_normal.png */,
+				0F7F99771619D1660086E49C /* destructive_button_normal@2x.png */,
+				0F7F99781619D1660086E49C /* destructive_button_pressed.png */,
+				0F7F99791619D1660086E49C /* destructive_button_pressed@2x.png */,
+			);
+			path = Resourses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,7 +258,20 @@
 				0F7F99521619D0050086E49C /* Default@2x.png in Resources */,
 				0F7F99541619D0050086E49C /* Default-568h@2x.png in Resources */,
 				0F7F995A1619D0050086E49C /* ViewController_iPhone.xib in Resources */,
-				0F7F995D1619D0050086E49C /* ViewController_iPad.xib in Resources */,
+				0F7F997B1619D1660086E49C /* action_sheet_background.png in Resources */,
+				0F7F997C1619D1660086E49C /* action_sheet_background@2x.png in Resources */,
+				0F7F997D1619D1660086E49C /* action_sheet_button_normal.png in Resources */,
+				0F7F997E1619D1660086E49C /* action_sheet_button_normal@2x.png in Resources */,
+				0F7F997F1619D1660086E49C /* action_sheet_button_pressed.png in Resources */,
+				0F7F99801619D1660086E49C /* action_sheet_button_pressed@2x.png in Resources */,
+				0F7F99811619D1660086E49C /* cancel_button_normal.png in Resources */,
+				0F7F99821619D1660086E49C /* cancel_button_normal@2x.png in Resources */,
+				0F7F99831619D1660086E49C /* cancel_button_pressed.png in Resources */,
+				0F7F99841619D1660086E49C /* cancel_button_pressed@2x.png in Resources */,
+				0F7F99851619D1660086E49C /* destructive_button_normal.png in Resources */,
+				0F7F99861619D1660086E49C /* destructive_button_normal@2x.png in Resources */,
+				0F7F99871619D1660086E49C /* destructive_button_pressed.png in Resources */,
+				0F7F99881619D1660086E49C /* destructive_button_pressed@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +285,7 @@
 				0F7F994A1619D0050086E49C /* main.m in Sources */,
 				0F7F994E1619D0050086E49C /* AppDelegate.m in Sources */,
 				0F7F99571619D0050086E49C /* ViewController.m in Sources */,
+				0F7F997A1619D1660086E49C /* niceActionSheet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,14 +306,6 @@
 				0F7F99591619D0050086E49C /* en */,
 			);
 			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		0F7F995B1619D0050086E49C /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0F7F995C1619D0050086E49C /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -234,9 +332,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = armv7;
 			};
 			name = Debug;
 		};
@@ -254,7 +353,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -265,10 +364,15 @@
 		0F7F99611619D0050086E49C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "niceActionSheetDemo/niceActionSheetDemo-Prefix.pch";
 				INFOPLIST_FILE = "niceActionSheetDemo/niceActionSheetDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -276,10 +380,15 @@
 		0F7F99621619D0050086E49C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "niceActionSheetDemo/niceActionSheetDemo-Prefix.pch";
 				INFOPLIST_FILE = "niceActionSheetDemo/niceActionSheetDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
